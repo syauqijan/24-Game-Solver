@@ -9,7 +9,8 @@
 using namespace std;
 
 int main()
-{
+{   
+    splashScreen();
     vector<int> numbers;
     vector<string> solution;
     using Clock = chrono::high_resolution_clock;

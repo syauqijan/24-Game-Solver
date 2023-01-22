@@ -8,6 +8,8 @@ using namespace std;
 #ifndef OPERATORS_HPP
 #define OPERATORS_HPP
 
+void splashScreen();
+
 int convertString(string s);
 
 string convertOp(int op);

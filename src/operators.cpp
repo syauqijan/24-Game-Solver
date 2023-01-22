@@ -1,5 +1,23 @@
 #include "operators.hpp"
 
+
+
+void splashScreen()
+{
+    cout << "          Welcome to 24 SOLVER!            " << endl;
+    cout << "============================================" << endl;
+    cout << "     _______   ________   _______    _______ " << endl;
+    cout << "    |2_  _  |  |A /\\  |  |Q  .   |  |T __   |" << endl;
+    cout << "    |( \\/ ) |  | /  \\ |  | //  \\ |  | (  )  |" << endl;
+    cout << "    | \\  /  |  | \\  / |  |(__,__)|  |(__X_) |" << endl;
+    cout << "    |  \\/ 2 |  |  \\/ A|  |   I  Q|  |   Y  T|" << endl;
+    cout << "    `-------`  `------`  `-------`  `-------`" << endl;
+    cout << "    created by: Muhhamad Syauqi Jannatan" << endl;
+    cout << "===============================================" << endl;
+    cout << endl;
+
+}
+
 int convertString(string s)
 {
     if(s=="A"){
