@@ -1,8 +1,7 @@
 #include "solve24.hpp"
 
-void solve24(int a, int b, int c, int d, vector<int> numbers, vector<string> *solution)
+void solve24(int a, int b, int c, int d, vector<int> numbers, vector<string> *solution, int counter)
 {
-    int counter = 0;
     vector<vector<int>> nums_res = permutation(numbers);
     string temp = "";
     for (int i = 0; i < 4; i++)

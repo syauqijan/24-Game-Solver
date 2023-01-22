@@ -140,7 +140,8 @@ void saveFile(vector<string> solution, string a, string b, string c, string d)
     filePath = "../test/" + fileName + ".txt";
     myfile.open (filePath);
     myfile <<"Your Number : " << a << " " << b << " " << c << " " << d << endl;
-    myfile << "Solutions: " << endl;
+    myfile << "Total Solutions: " << solution.size() << endl;
+    myfile << "====================" << endl;
     for(int i = 0; i < solution.size(); i++){
         myfile << solution[i] << endl;
     }

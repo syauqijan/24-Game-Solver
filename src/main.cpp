@@ -10,6 +10,7 @@ using namespace std;
 
 int main()
 {   
+    int counter=0;
     splashScreen();
     vector<int> numbers;
     vector<string> solution;
@@ -22,7 +23,7 @@ int main()
     if (choose == 1)
     {
         string input[4];
-        cout << "Input 4 numbers: ";
+        cout << "Input 4 numbers: "<< endl;
         cin >> input[0] >> input[1] >> input[2] >> input[3];
         while (!checkInput(input[0])&&!checkInput(input[1])&&!checkInput(input[2])&&!checkInput(input[3]))
         {
@@ -30,10 +31,15 @@ int main()
             cout << "Input 4 numbers: ";
             cin >> input[0] >> input[1] >> input[2] >> input[3];
         }
+        cout << "==============================" << endl;
+        cout << "Your Numbers: ";
         for (int i = 0; i < 4; i++)
-        {
+        {   
+            cout << input[i] << " ";
             numbers.push_back(convertString(input[i]));
         }
+        cout << endl;
+        cout << "The solution is: " << endl;
         
     }
     else if (choose == 2)
@@ -53,7 +59,7 @@ int main()
         return 0;
     }
     auto start = Clock::now();
-    solve24(numbers[0], numbers[1], numbers[2], numbers[3], numbers, &solution);
+    solve24(numbers[0], numbers[1], numbers[2], numbers[3], numbers, &solution, counter);
     auto end = Clock::now();
     auto duration = chrono::duration_cast<chrono::milliseconds>(end - start);
     cout << "Execution Time: " << duration.count() << " ms" << endl;
