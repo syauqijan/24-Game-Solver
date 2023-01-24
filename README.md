@@ -8,32 +8,33 @@ Program ini menyelesaikan 24 Card Game menggunakan `Brute-Force Algorithm` yang 
 
 ## Program Structure
 ```
-STIMA                                         
-└─ tucil 1                                    
-   ├─ bin                                     
-   │  └─ main.exe                             
-   ├─ doc                                     
-   │  └─ Laporan Tucil 1 IF2211_13521014.pdf  
-   ├─ src                                     
-   │  ├─ main.cpp                             
-   │  ├─ operators.cpp                        
-   │  ├─ operators.hpp                        
-   │  ├─ solve24.cpp                          
-   │  └─ solve24.hpp                          
-   ├─ test                                    
-   │  ├─ test1.txt                            
-   │  ├─ test2.txt                            
-   │  ├─ test3.txt                            
-   │  ├─ test4.txt                            
-   │  ├─ test5.txt                            
-   │  └─ test6.txt                            
-   └─ README.md                               
+STIMA                                                     
+└─ tucil 1                                                
+   ├─ bin                                                 
+   │  └─ main.exe                                         
+   ├─ doc                                                 
+   │  └─ Tucil1_K3_13521014_Muhhamad Syauqi Jannatan.pdf  
+   ├─ src                                                 
+   │  ├─ main.cpp                                         
+   │  ├─ operators.cpp                                    
+   │  ├─ operators.hpp                                    
+   │  ├─ solve24.cpp                                      
+   │  └─ solve24.hpp                                      
+   ├─ test                                                
+   │  ├─ test1.txt                                        
+   │  ├─ test2.txt                                        
+   │  ├─ test3.txt                                        
+   │  ├─ test4.txt                                        
+   │  ├─ test5.txt                                        
+   │  └─ test6.txt                                        
+   └─ README.md                                           
+                              
 
 ```
 
 ## How To Run
 1. Clone this repository
-2. Run ```makeIt24.exe``` in ```Tucil1_13521014/bin/```
+2. Run ```main.exe``` in ```Tucil1_13521014/bin/```
 
 ## Technology Used
 - C++
