@@ -9,7 +9,7 @@ Program ini menyelesaikan 24 Card Game menggunakan `Brute-Force Algorithm` yang 
 ## Program Structure
 ```
 STIMA                                                     
-└─ tucil 1                                                
+└─ Tucil1_13521014                                                
    ├─ bin                                                 
    │  └─ main.exe                                         
    ├─ doc                                                 
